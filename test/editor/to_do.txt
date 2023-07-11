@@ -1,0 +1,25 @@
+To make a level editor in C++ using SFML, you can follow these steps:
+
+	Set up your SFML project with the necessary dependencies and include statements for SFML.
+
+	Create a window and a grid system for your level editor using SFML's RenderWindow and RectangleShape classes.
+
+	Implement a way for the user to click on the grid system and add platforms, enemies, or the player using SFML's Mouse class and event handling system.
+
+	Implement keyboard input using SFML's Keyboard class to allow the user to switch between different object types (platforms, enemies, player) and move around the grid system.
+
+	Use a JSON library such as nlohmann/json to store the level data in a JSON file.
+
+	When the user is done editing the level, save the JSON data to a file using the JSON library.
+
+	Implement the game engine using SFML's game loop and event handling system.
+
+	Load the JSON file containing the level data into the game engine.
+
+	Use the level data to create the player, platforms, and enemies in the game engine.
+
+	Implement collision detection using SFML's Rect and FloatRect classes to detect when the player collides with a platform or an enemy.
+
+	Implement smooth jumping for the player using SFML's Keyboard class to handle input and SFML's Vector2f class to calculate the player's movement.
+
+	Implement enemy movement using SFML's Clock class to keep track of time and SFML's Vector2f class to calculate the enemy's movement.
